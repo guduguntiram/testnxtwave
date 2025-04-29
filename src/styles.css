@@ -1,0 +1,92 @@
+/* Full-page layout with gradient */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #e0eafc, #cfdef3); /* same gradient as product page */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Card-style login container */
+.login-card {
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading style matching product titles */
+.login-card h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Input field style */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.login-card input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Login button style similar to product card buttons */
+.login-card button {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-card button:hover {
+  background-color: #219150;
+}
+
+/* Link and additional text */
+.login-card p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.login-card a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive handling */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 1.5rem;
+  }
+
+  .login-card h2 {
+    font-size: 1.5rem;
+  }
+}
