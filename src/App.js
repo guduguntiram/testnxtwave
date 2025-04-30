@@ -8,13 +8,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Default route - login page */}
+       
         <Route path="/" element={<Login />} />
-
-        {/* Signup page */}
         <Route path="/signup" element={<Signup />} />
-
-        {/* Protected product listing page */}
         <Route path="/products" element={<ProductList />} />
       </Routes>
     </Router>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom'; // Import Link
-import './Login.css'; // Assuming you're using the CSS we discussed
+import { useNavigate, Link } from 'react-router-dom'; 
+import './Login.css'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -34,7 +34,7 @@ const Login = () => {
         />
         <button onClick={handleLogin}>Login</button>
         
-        {/* Link to signup page */}
+       
         <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
       </div>
     </div>

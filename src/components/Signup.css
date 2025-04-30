@@ -1,15 +1,15 @@
-/* Full-page layout with gradient */
+
 .signup-page {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Same gradient as login page */
+    background: linear-gradient(to right, #e0eafc, #cfdef3); 
     padding: 1rem;
     box-sizing: border-box;
 }
 
-/* Card-style signup container */
+
 .signup-card {
     background: #ffffff;
     padding: 2rem 2.5rem;
@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-/* Heading style matching product titles */
+
 .signup-card h2 {
     font-size: 2rem;
     color: #2c3e50;
@@ -28,7 +28,7 @@
     margin-bottom: 1.5rem;
 }
 
-/* Input field style */
+
 .signup-card input {
     width: 100%;
     padding: 12px;
@@ -45,9 +45,9 @@
     outline: none;
 }
 
-/* Signup button style */
+
 .signup-card button {
-    background-color: #27ae60; /* Matching green color for consistency */
+    background-color: #27ae60; 
     color: #fff;
     padding: 12px;
     border: none;
@@ -60,10 +60,10 @@
 }
 
 .signup-card button:hover {
-    background-color: #219150; /* Slightly darker shade on hover */
+    background-color: #219150; 
 }
 
-/* Link and additional text */
+
 .signup-card p {
     margin-top: 1rem;
     font-size: 0.95rem;
@@ -80,7 +80,6 @@
     text-decoration: underline;
 }
 
-/* Responsive handling */
 @media (max-width: 480px) {
     .signup-card {
         padding: 1.5rem;
@@ -91,7 +90,7 @@
     }
 }
 
-  /* Responsive adjustments */
+
   @media (max-width: 480px) {
     .signup-card {
       padding: 1.5rem;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Signup.css'; // Ensure this is correctly linked
+import './Signup.css'; 
 
 const Signup = () => {
   const [email, setEmail] = useState('');
@@ -14,8 +14,8 @@ const Signup = () => {
   };
 
   return (
-    <div className="signup-page"> {/* Apply the outer class here */}
-      <div className="signup-card"> {/* Apply the card class here */}
+    <div className="signup-page"> 
+      <div className="signup-card"> 
         <h2>Sign Up</h2>
         <input
           value={email}
